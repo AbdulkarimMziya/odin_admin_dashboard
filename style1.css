@@ -21,7 +21,7 @@ body {
     grid-template-rows: 1.5em 1fr 1.5em 1fr;
     gap: 1em;
 
-    padding: 8px;
+    padding: 2rem 1em;
 }
 
 .main .navbar {
@@ -84,4 +84,25 @@ body {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     gap: 5px;
+}
+
+/* *** Aside Section *** */
+aside {
+    display: grid;
+    grid-template-rows: minmax(5vh, 10vh) 35vh 20vh;
+    gap: 1em;
+}
+
+.sidebar-item, .navigation-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.sidebar-item > .logo {
+    justify-self: end;
+}
+
+.navigation-item > .logo {
+    justify-self: center;
 }

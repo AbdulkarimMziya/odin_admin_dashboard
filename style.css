@@ -30,6 +30,7 @@
     font-size: 14px;
 }
 
+/* *** Announcment Section *** */
 .announce .card {
     border-bottom: 2px solid black;
 
@@ -93,5 +94,28 @@
     width: 30px;
 }
 
+/* *** Sidebar Section *** */
+aside {
+    background-color:rgba(0, 118, 203, 0.89);
+}
 
+aside .title {
+    color: white;
+}
 
+.branding .logo {
+    height: 60px;
+    width: 60px;
+
+}
+.branding .title {
+    font-size: 1.5em;
+}
+
+.navigation-item {
+    margin-bottom: 0.8rem;
+}
+.navigation-item .logo {
+    height: 30px;
+    width: 30px;
+}
