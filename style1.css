@@ -1,0 +1,48 @@
+/* Layout Stylesheet */
+body {
+    padding: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: minmax(200px,1fr) 2fr;
+    grid-template-rows: 1fr 4fr;
+
+    height: 100vh;
+}
+
+.container .sidebar {
+    grid-row: 1 / 3;
+}
+
+/* *** Main Section *** */
+.main { 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1.5em 1fr 1fr;
+    gap: 1em;
+
+    padding: 8px;
+}
+.main .navbar {
+    grid-column: 1 / 3;
+}
+.main .projects {
+    grid-row: 2 / 4;
+}
+
+/* *** Navbar Section *** */
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    align-items: end;
+}
+
+/* *** Announcment Section *** */
+.announce {
+    display: grid;
+    grid-row: repeat(3, 1fr);
+    align-items: start;
+
+    padding: 8px 12px 8px;
+}
