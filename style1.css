@@ -4,7 +4,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: minmax(150px,25vw) 2fr;
+    grid-template-columns: minmax(17vw,20vw) 2fr;
     grid-template-rows: 1fr 4fr;
 
     height: 100vh;
@@ -17,7 +17,7 @@ body {
 /* *** Main Section *** */
 .main { 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr minmax(17vw, 20vw);
     grid-template-rows: 1.5em 1fr 1.5em 1fr;
     gap: 1em;
 
@@ -40,7 +40,7 @@ body {
 /* *** Navbar Section *** */
 .navbar {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr minmax(17vw, 20vw);
     gap: 1em;
     align-items: end;
 }
@@ -69,4 +69,19 @@ body {
 
     width: 100%;
     padding: 5px;
+}
+
+/* *** Projects Section *** */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 20px;
+}
+
+.projects > .card {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 5px;
 }

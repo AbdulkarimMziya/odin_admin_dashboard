@@ -17,7 +17,7 @@
 }
 
 .main {
-    background-color: #ccc;
+    background-color:  #bccbde77;
 }
 
 .announce, .trending {
@@ -48,7 +48,7 @@
 
 /* *** Trending Section *** */
 .account-icon {
-    justify-self: end;
+    justify-self: center;
 }
 
 .account-icon img {
@@ -63,6 +63,35 @@
     color: grey;
 }
 
+/* *** Projects Section *** */
+.projects > .card {
+    background-color: white;
+    border-left: 8px solid orange;
+    border-radius: 8px;
+
+    padding: 1rem 1em;
+}
+
+.projects .card .title {
+    font-size: 1em;
+    font-weight: bold;
+    align-self: end;
+}
+
+.projects .card p:last-child {
+    font-size: 0.80em;
+    color: gray;
+}
+
+.projects .card div {
+    display: flex;
+    justify-content: end;
+    gap: 1.5em;
+}
+.projects .card img {
+    height: 30px;
+    width: 30px;
+}
 
 
 
