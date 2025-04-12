@@ -12,11 +12,22 @@
     color: white;
 }
 
-.container > .item, main > .item, .announce > .item {
+.title {
+    color: black;
+}
+
+.main {
     background-color: #ccc;
+}
+
+.announce > .item {
     border: 2px solid;
 }
 
+.announce {
+    background-color: white;
+    border-radius: 5px;
+}
 .card p {
     color: black;
     font-weight: normal;
@@ -24,13 +35,13 @@
 }
 
 .announce .card {
-    background-color: #FFFFFF;
     border-bottom: 2px solid black;
 
     padding-bottom: 1em;
 }
 
 .announce .card .title {
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 2px;
 }
