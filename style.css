@@ -24,7 +24,7 @@
     border: 2px solid;
 }
 
-.announce {
+.announce, .trending {
     background-color: white;
     border-radius: 5px;
 }
