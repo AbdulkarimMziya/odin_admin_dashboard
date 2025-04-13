@@ -1,3 +1,4 @@
+/* Reset Styles */
 * {
     margin: 0;
     padding: 0;
@@ -119,7 +120,7 @@ aside .title {
 .navigation-item {
     margin-bottom: 0.8rem;
 }
-.navigation-item .logo {
+.navigation-item .logo, .header .search-icon {
     height: 30px;
     width: 30px;
 }
@@ -139,6 +140,17 @@ header {
     justify-self: center;
 }
 
+.search-icon {
+    justify-self: end;
+}
+
+.search-bar{
+    background-color: #bccbde77;
+    padding: 16px;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+
 .user-info-section .small-font {
     display: block;
     font-size: 0.7em;
@@ -154,4 +166,10 @@ header {
 
     font-size: .8em;
     text-align: center;
+    cursor: pointer;
+}
+
+.account-info-section .profile-pic {
+    width: 40px;
+    height: 40px;
 }
