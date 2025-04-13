@@ -2,6 +2,9 @@
 
 A admin dashboard built using HTML and CSS. This project showcases a clean UI layout with a fixed sidebar, top header, and grid-based project section.
 
+🔗 [Live Demo](https://abdulkarimmziya.github.io/odin_sign_up_form/)
+
+
 ## 🚀 Features
 
 - Fixed sidebar with navigation links
