@@ -103,6 +103,10 @@ aside .title {
     color: white;
 }
 
+.navigation {
+    cursor: pointer;
+}
+
 .branding .logo {
     height: 60px;
     width: 60px;
@@ -118,4 +122,36 @@ aside .title {
 .navigation-item .logo {
     height: 30px;
     width: 30px;
+}
+
+/* *** Header Section *** */
+header {
+    color: black;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+
+    background-color: orange;
+    border: 4px solid black;
+    border-radius: 50%;
+
+    justify-self: center;
+}
+
+.user-info-section .small-font {
+    display: block;
+    font-size: 0.7em;
+
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: rgba(0, 118, 203, 0.89);
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+
+    font-size: .8em;
+    text-align: center;
 }

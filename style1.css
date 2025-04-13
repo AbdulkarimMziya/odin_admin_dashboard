@@ -106,3 +106,28 @@ aside {
 .navigation-item > .logo {
     justify-self: center;
 }
+
+/* *** Header Section *** */
+header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header .row-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.user-info-section {
+    display: grid;
+    grid-template-columns: minmax(100px, 15%) 2fr;
+    align-items: center;
+}
+
+.header .buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 7vw);
+
+    gap: 15px;
+    align-items: center;
+}
